@@ -13,3 +13,9 @@ Testing:
     - Bucket or Split Testing
     - A/B testing works on Data Driven Desecion 
     - Tool (Wasabi - now outdated), A B Tasty etc...
+
+4. Performance Testing
+    - Performance is all about Page Load Time & Page Speed 
+    - Key Parameters: DCL, LCP, FP, FCP
+    - Tools: Dev Tools -> Performace Tab & Lighthouse, PageSpeed Insights, WebPage Test Org
+    - Note: Do check the Diagnose portion in the above tools that gives us the answer om how to improve our performance
