@@ -1,0 +1,13 @@
+const users = [
+ { name: "Akshay", age: 28 },
+ { name: "Simran", age: 30 },
+ { name: "Sachin", age: 50 },
+ { name: "Aman", age: 20 }
+];
+function sortingByAge() {
+ const data = users.sort((a, b) => a.age - b.age);
+ return data;
+}
+console.log(sortingByAge());
+
+module.exports = sortingByAge;
