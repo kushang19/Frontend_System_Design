@@ -12,7 +12,7 @@ test("Testing Length to be 4", ()=>{
     expect(data).toHaveLength(4)
 });
 test("Testing Undefined keyword", ()=>{
-    const a = null;
+    const a = undefined;
     expect(a).toBeUndefined()
 });
 
