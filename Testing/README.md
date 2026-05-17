@@ -22,3 +22,18 @@ Testing:
 
 5. Test Driven Development
     - Red - Green _ Refactor 
+
+6. Security Testing 
+    Tools - Burp Suite
+
+7. Setting up Testing in our app (Namaste React App , https://github.com/namastedev/namaste-react/)
+    - Installed jest
+    - Install React Testing Library
+    - Installed Babel dependencies
+    - Configure Babel
+    - Configure Parcel Config file to disable default babel transpilation
+    - Jest - npx jest --init
+    - Install jsdom library - (creates an enviornment for testing like its a browser)
+    - Install @babel/preset-react - to make JSX work in test cases
+    - Include @babel/preset-react inside my babel config
+    - npm i -D @testing-library/jest-dom
